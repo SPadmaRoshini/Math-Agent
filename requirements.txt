@@ -1,0 +1,14 @@
+# Core Dependencies
+transformers>=4.35.0
+accelerate>=0.24.0
+bitsandbytes>=0.41.0
+torch>=2.0.0
+
+# Optional: For CUDA support (recommended for GPU acceleration)
+# Install PyTorch with CUDA from: https://pytorch.org/get-started/locally/
+
+# Python Standard Library (already included, listed for reference)
+# - re
+# - ast
+# - math
+# - typing
