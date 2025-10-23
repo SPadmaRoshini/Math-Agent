@@ -122,14 +122,14 @@ result = solver.solve(question)
                │
                ▼
 ┌─────────────────────────────────────────┐
-│   Question Filter (Qwen 2.5 1.5B)      │
+│   Question Filter (Qwen 2.5 1.5B)       │
 │   - Removes contextual fluff            │
 │   - Extracts core math problem          │
 └──────────────┬──────────────────────────┘
                │
                ▼
 ┌─────────────────────────────────────────┐
-│  Math Solver (Qwen 2.5 Math 1.5B)      │
+│  Math Solver (Qwen 2.5 Math 1.5B)       │
 │   - Generates solution plan             │
 │   - Creates Python code                 │
 │   - Provides step explanations          │
@@ -145,7 +145,7 @@ result = solver.solve(question)
                │
                ▼
 ┌─────────────────────────────────────────┐
-│   AST Validator & Sanitizer            │
+│   AST Validator & Sanitizer             │
 │   - Parses code syntax                  │
 │   - Blocks dangerous operations         │
 │   - Converts math notation              │
